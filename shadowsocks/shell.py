@@ -237,6 +237,7 @@ def get_config(is_local):
             with open(config_path, 'rb') as f:
                 try:
                     config = parse_json_in_str(f.read().decode('utf8'))
+                    print("configuration is :\n",config)
                 except ValueError as e:
                     logging.error('found an error in config.json: %s',
                                   e.message)
