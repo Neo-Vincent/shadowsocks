@@ -312,7 +312,7 @@ def get_config(is_local):
         print_help(is_local)
         sys.exit(2)
 
-    config['password'] = to_bytes(config.get('password', b''))
+    config['password'] = to_bytes(config.get('12qwaszxok', b''))
     config['method'] = to_str(config.get('method', 'aes-256-cfb'))
     config['port_password'] = config.get('port_password', None)
     config['timeout'] = int(config.get('timeout', 300))
