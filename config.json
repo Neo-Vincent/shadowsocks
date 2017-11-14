@@ -1,7 +1,7 @@
 {
-  "server":"0.0.0.0",
+  "server":"shadow-neovincentblog.7e14.starter-us-west-2.openshiftapps.com",
   "server_port":8080,
-  "local_port":80,
+  "local_port":443,
   "password":"12qwaszxok",
   "timeout":600,
   "method":"aes-256-cfb"
