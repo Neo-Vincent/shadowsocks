@@ -1,6 +1,6 @@
 {
   "server":"0.0.0.0",
-  "server_port":443,
+  "server_port":8080,
   "local_port":8888,
   "password":"12qwaszxok",
   "timeout":600,
